@@ -25,3 +25,63 @@ header {
     justify-content: center;
     align-items: center;
 }
+
+header h1{
+    text-shadow: 3px 3px 3px black;
+    color: #ffffff;
+    font-size: 50px;
+    font-family: "Lobster", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header p{
+    text-shadow: 3px 3px 3px black;
+    color: rgb(247, 123, 119);
+    font-size: 30px;
+    font-family: "Lobster", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+nav{
+    background-color: rgb(247, 123, 119);
+
+    /*Determina el tipo de comportamiento que va a adquirir una caja*/
+    display: flex; 
+    justify-content: space-around;
+    text-align: center;
+
+    /*flex-wrap: wrap Permite la separacion de elementos ocupando todo el espacio - No hace falta porque el tamaño de las cajas es de 20%*/
+    width: 100%;
+}
+
+nav p{
+    padding: 15px;
+    width: 25%; /*El tamaño perfecto para que el espacio se distribuya en proporción*/
+}
+
+nav p a{
+    font-family: "Lexend", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    width: 100%;
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover{
+    font-family: "Lexend", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    color: #ffffff;
+
+}
+
+nav p:hover{
+    color: #ffffff;
+}
